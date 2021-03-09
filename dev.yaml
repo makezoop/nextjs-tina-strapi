@@ -1,0 +1,12 @@
+apps:
+  - script: yarn
+    args: develop
+    name: strapi-dev
+    cwd: ./tina-strapi-server
+    interpreter: none
+
+  - script: yarn
+    args: dev
+    name: web-dev
+    cwd: ./tina-cms-web
+    interpreter: none
